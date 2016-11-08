@@ -56,50 +56,42 @@ class E{
 
 class M extends E implements D{
 	//实现接口方法
-	@Override
 	public void a1() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());
 	}
 
-	@Override
 	public void a2() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());
 	}
 
-	@Override
 	public void b1() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());
 	}
 
-	@Override
 	public void b2() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());	
 	}
 
-	@Override
 	public void c1() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());	
 	}
 
-	@Override
 	public void c2() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());	
 	}
 
-	@Override
 	public void d1() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());
 		
 	}
 
-	@Override
 	public void d2() {
 		System.out.println(new Throwable().getStackTrace()[0].getMethodName());
 		System.out.println(new Throwable().getStackTrace()[0].getClassName());

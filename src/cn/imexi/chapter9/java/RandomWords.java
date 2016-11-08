@@ -16,7 +16,6 @@ public class RandomWords implements Readable{
 		this.count = count;
 	}
 	
-	@Override
 	public int read(CharBuffer cb) throws IOException {
 		if(count-- == 0){
 			return -1;
@@ -41,8 +40,7 @@ public class RandomWords implements Readable{
 
 }
 
-
-
 //capitals ['kæpətl]  n. 首都；资产（capital的复数）；大写字母
-//lowercase  英 [,ləʊə'keɪs]   美 ['loɚ,kes]  n. 小写字母；小写字体  adj. 小写字体的   vt. 用小写字体书写
-//vowels  美 ['vaʊəl]   n. [语] 元音，母音（vowel的复数形式）
+//lowercase  苿 [,ləʊə'keɪs]   羿 ['loɚ,kes]  n. 小写字母；小写字使  adj. 小写字体皿   vt. 用小写字体书冿
+//vowels  羿 ['vaʊəl]   n. [语] 元音，母音（vowel的复数形式）
+

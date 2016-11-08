@@ -24,12 +24,10 @@ class FilterAdpter implements Processor {
 		this.file = file;
 	}
 
-	@Override
 	public String name() {
 		return file.name();
 	}
 
-	@Override
 	public Waveform process(Object input) {
 		return file.process((Waveform)input);
 	}

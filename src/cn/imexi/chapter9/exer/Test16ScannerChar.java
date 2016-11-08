@@ -26,7 +26,6 @@ class ScannerChar implements Readable{
 	
 	Random rand = new Random(47);
 	
-	@Override
 	public int read(CharBuffer cb) throws IOException {
 		// TODO Auto-generated method stub
 		if(counter-- < 0){
