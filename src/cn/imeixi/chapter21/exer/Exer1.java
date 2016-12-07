@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.exer;
+package cn.imeixi.chapter21.exer;
 
 /**
  * 实现Runnable接口，在run方法中打印一条信息，然后调用yield（）

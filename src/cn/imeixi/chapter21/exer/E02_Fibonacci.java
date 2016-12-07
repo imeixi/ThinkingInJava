@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.exer;
+package cn.imeixi.chapter21.exer;
 
 import java.util.Arrays;
 import net.mindview.util.Generator;

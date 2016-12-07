@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.java;
+package cn.imeixi.chapter21.java;
 
 /**
  * Demonstration of the Runnable Interface
@@ -28,7 +28,7 @@ public class LiftOff implements Runnable {
 
 	public void run() {
 		while (countDown-- > 0) {
-			System.out.println(status());
+			System.out.print(status() + ",");
 			Thread.yield();  //释放CPU占用
 		}
 	}

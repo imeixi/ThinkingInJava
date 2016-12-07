@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.exer;
+package cn.imeixi.chapter21.exer;
 
 public class Run1 implements Runnable{
 

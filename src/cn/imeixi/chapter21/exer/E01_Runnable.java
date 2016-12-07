@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.exer;
+package cn.imeixi.chapter21.exer;
 
 public class E01_Runnable {
 	public static void main(String[] args) {

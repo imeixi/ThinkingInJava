@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.java;
+package cn.imeixi.chapter21.java;
 
 public class MoreBasicThreads {
 	public static void main(String[] args) {

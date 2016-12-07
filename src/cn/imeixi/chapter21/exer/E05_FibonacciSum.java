@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.exer;
+package cn.imeixi.chapter21.exer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ public class E05_FibonacciSum {
 		
 		ExecutorService exService = Executors.newCachedThreadPool();
 		List<Future<Integer>> results = new ArrayList<Future<Integer>>();
-		for(int i = 0; i < 5; i++){
+		for(int i = 0; i < 10; i++){
 			results.add(exService.submit(new FibonacciSum(i)));
 		}
 		Thread.yield();

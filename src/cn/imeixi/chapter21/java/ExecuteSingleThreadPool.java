@@ -1,4 +1,4 @@
-package cn.imeixi.chapter22.java;
+package cn.imeixi.chapter21.java;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
